@@ -1,0 +1,298 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.banner{
+    position: relative;
+}
+.banner-title{
+    position: absolute;
+   
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+}
+.banner-header{
+    font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 76px;
+text-align: right;
+
+color: #FFFFFF;
+margin-bottom: 24px;
+}
+.banner-description{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: right;
+
+color: #FFFFFF;
+margin-bottom: 32px;
+}
+.first-button{
+    
+    color: #005FAC;
+
+    font-weight: 600;
+font-size: 20px;
+border:0;
+padding: 20px 25px;
+
+line-height: 23px;
+
+border-radius:5px;
+margin-left:350px;
+
+
+
+}
+
+.failure-styles{
+    display: flex;
+    gap:87px;
+    
+}
+.failure-image{
+    margin-left: 206px;;
+    width: 569px;
+height: 723.3px;
+margin-top: 131px;
+
+}
+.failure-text{
+    margin-right: 322px;
+    padding-top: 270px;
+    margin-top: 70px;
+}
+.failure-text-header{
+    margin-bottom: 24px;
+    font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: #151414;
+}
+.failure-text-para{
+    
+    margin-bottom: 16px;
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+}
+.failure-text-list{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+list-style: none;
+}
+
+.plans-header{
+    margin-top: 130px;
+    font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: #151414;
+margin-bottom: 50px;
+/* margin-left: 250px; */
+text-align: center;
+
+
+    
+    
+}
+.all-plans{
+    display: flex;
+    margin-left: 320px;
+    margin-right:250px;
+top: 1889px;
+gap:150px;
+padding-bottom: 130px;
+}
+/* .web{
+}
+.java{
+
+}
+
+.ecoomerce{
+} */
+
+.smoking{
+    text-align: center;
+}
+.pheader{
+    padding-top:24px;
+    text-align: left;
+}
+.ppara{
+    padding-top:24px;
+
+}
+
+/* .all-mindset{
+    background: linear-gradient("../images/watch"),linear-gradient("../images/gradient1");
+    background-blend-mode: screen;
+} */
+
+/* .all-mindset {
+    background:
+        url(../images/watch.png),
+        radial-gradient(
+            rgba(0,255,0,.8),
+            black
+        ),
+        repeating-linear-gradient(
+            transparent 0,
+            rgba(0,0,0,.2) 3px,
+            transparent 6px
+        );
+    background-blend-mode: overlay;
+    background-size: cover;
+ } */
+
+.mindset{
+    
+        position:relative;
+        left: 230px;
+    /* background:
+        url(../images/watch.png),
+        radial-gradient(
+            rgba(0,255,0,.8),
+            black
+        ),
+        repeating-linear-gradient(
+            transparent 0,
+            rgba(0,0,0,.2) 3px,
+            transparent 6px
+        ); */
+   
+    /* background: linear-gradient (url("../images/gradient1.png") ,white);  */
+    /* background:background-gradient-and-image (#f3f3f3, "../images/gradient1.png", left, top, #fafcfd, #f2f2f2); */
+    /* background: linear-gradient(to left,orange 0%,yellow 100%), url(../images/watch.png);
+    background-blend-mode: screen,difference,lighten;
+} */
+
+    /* display: block;
+    width: 700px;
+    height: 438px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  
+  background-image: url("../images/watch.png"),
+    -webkit-linear-gradient(left, red, blue);
+  background-image: url("..images/gradient1"),
+    -moz-linear-gradient(left, red, blue);
+  
+    background-blend-mode: overlay; */
+    width: 1135px;
+    height: 300px;
+    background:url("../images/gradient1.png"),url("../images/watch.png");
+    background-size: contain;   
+        /* -moz-background-blend-mode:overlay ; */
+
+      }
+    
+
+/* .background-gradient-and-image (#f3f3f3, "../images/gradient1.png", left, top, #fafcfd, #f2f2f2); */
+
+.mindset-title{
+    position: absolute;
+width: 459px;
+height: 94px;
+left: 294px;
+top: 2280.96px;
+}
+
+.mindset-header{
+    font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+
+color: #FFFFFF;
+padding-bottom:28px;
+}
+.sec-button{
+    color: #005FAC;
+
+    font-weight: 600;
+font-size: 20px;
+border:0;
+padding: 20px 25px;
+
+line-height: 23px;
+
+border-radius:5px;
+
+
+}
+.contact{
+    margin-top:130px ;
+    display: flex;
+    text-align: center;
+    gap: 200px;
+    padding: 130px 230px;
+    background: #151414;
+    
+}
+
+.future{
+    text-align: left;
+    width: 485px;
+
+}
+
+
+
+
+.text{
+    color: #F8F8F8;
+    font-weight: 400;
+padding-bottom: 16px;
+text-align: left;
+}
+ .future h2{
+        font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    padding-bottom: 16px;
+ }
+
+ .subscribe input{
+    width: 325px;
+    height:64px;
+    background-color: #151414;
+    border:solid 1px #F8F8F8;
+    border-radius: 5px;
+ }
+ .third-button{
+        color:orange ;
+        background-color: #F8F8F8;
+    
+        font-weight: 600;
+    font-size: 20px;
+    border:0;
+    padding: 20px 25px;
+    
+    line-height: 23px;
+    
+    border-radius:5px;
+    margin-top: 16px;
+    margin-right: 170px;    
+ }
