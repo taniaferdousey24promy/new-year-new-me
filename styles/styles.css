@@ -6,12 +6,14 @@
 }
 
 
+/* HEADER SECTION */
 .banner{
     position: relative;
+    width: 100%;
 }
 .banner-title{
     position: absolute;
-   
+    
     width: 525px;
     height: 228px;
     left: 845px;
@@ -19,44 +21,45 @@
 }
 .banner-header{
     font-style: normal;
-font-weight: 700;
-font-size: 65px;
-line-height: 76px;
-text-align: right;
-
-color: #FFFFFF;
-margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    
+    color: #FFFFFF;
+    margin-bottom: 24px;
 }
 .banner-description{
     font-family: 'Work Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-/* or 162% */
-
-text-align: right;
-
-color: #FFFFFF;
-margin-bottom: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    
+    text-align: right;
+    
+    color: #FFFFFF;
+    margin-bottom: 32px;
 }
 .first-button{
     
     color: #005FAC;
-
+    
     font-weight: 600;
-font-size: 20px;
-border:0;
-padding: 20px 25px;
-
-line-height: 23px;
-
-border-radius:5px;
-margin-left:350px;
-
-
-
+    font-size: 20px;
+    border:0;
+    padding: 20px 25px;
+    
+    line-height: 23px;
+    
+    border-radius:5px;
+    margin-left:350px;
+    
+    
+    
 }
+/* MY FAILURE SECTION  */
 
 .failure-styles{
     display: flex;
@@ -66,9 +69,9 @@ margin-left:350px;
 .failure-image{
     margin-left: 206px;;
     width: 569px;
-height: 723.3px;
-margin-top: 131px;
-
+    height: 723.3px;
+    margin-top: 131px;
+    
 }
 .failure-text{
     margin-right: 322px;
@@ -78,40 +81,41 @@ margin-top: 131px;
 .failure-text-header{
     margin-bottom: 24px;
     font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 47px;
-color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
 }
 .failure-text-para{
     
     margin-bottom: 16px;
     font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
 }
 .failure-text-list{
     font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-color: #444343;
-list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    list-style: none;
 }
 
+/* OUR PLAN SECTION */
 .plans-header{
     margin-top: 130px;
     font-weight: 700;
-font-size: 40px;
-line-height: 47px;
-color: #151414;
-margin-bottom: 50px;
-/* margin-left: 250px; */
-text-align: center;
-
-
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 50px;
+    /* margin-left: 250px; */
+    text-align: center;
+    
+    
     
     
 }
@@ -119,18 +123,11 @@ text-align: center;
     display: flex;
     margin-left: 320px;
     margin-right:250px;
-top: 1889px;
-gap:150px;
-padding-bottom: 130px;
-}
-/* .web{
-}
-.java{
-
+    top: 1889px;
+    gap:150px;
+    padding-bottom: 130px;
 }
 
-.ecoomerce{
-} */
 
 .smoking{
     text-align: center;
@@ -141,121 +138,151 @@ padding-bottom: 130px;
 }
 .ppara{
     padding-top:24px;
-
+    
 }
 
-/* .all-mindset{
-    background: linear-gradient("../images/watch"),linear-gradient("../images/gradient1");
-    background-blend-mode: screen;
-} */
 
-/* .all-mindset {
-    background:
-        url(../images/watch.png),
-        radial-gradient(
-            rgba(0,255,0,.8),
-            black
-        ),
-        repeating-linear-gradient(
-            transparent 0,
-            rgba(0,0,0,.2) 3px,
-            transparent 6px
-        );
-    background-blend-mode: overlay;
-    background-size: cover;
- } */
-
+/* MINDSET SECTION USING LINEAR GRADIENT */
 .mindset{
     
-        position:relative;
-        left: 230px;
-    /* background:
-        url(../images/watch.png),
-        radial-gradient(
-            rgba(0,255,0,.8),
-            black
-        ),
-        repeating-linear-gradient(
-            transparent 0,
-            rgba(0,0,0,.2) 3px,
-            transparent 6px
-        ); */
-   
-    /* background: linear-gradient (url("../images/gradient1.png") ,white);  */
-    /* background:background-gradient-and-image (#f3f3f3, "../images/gradient1.png", left, top, #fafcfd, #f2f2f2); */
-    /* background: linear-gradient(to left,orange 0%,yellow 100%), url(../images/watch.png);
-    background-blend-mode: screen,difference,lighten;
-} */
-
-    /* display: block;
-    width: 700px;
-    height: 438px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-  
-  background-image: url("../images/watch.png"),
-    -webkit-linear-gradient(left, red, blue);
-  background-image: url("..images/gradient1"),
-    -moz-linear-gradient(left, red, blue);
-  
-    background-blend-mode: overlay; */
+    position:relative;
+    left: 230px;
+    
+    
+    
     width: 1135px;
     height: 300px;
     background:url("../images/gradient1.png"),url("../images/watch.png");
     background-size: contain;   
-        /* -moz-background-blend-mode:overlay ; */
-
-      }
     
+}
 
-/* .background-gradient-and-image (#f3f3f3, "../images/gradient1.png", left, top, #fafcfd, #f2f2f2); */
+
 
 .mindset-title{
     position: absolute;
-width: 459px;
-height: 94px;
-left: 294px;
-top: 2280.96px;
+    width: 459px;
+    height: 94px;
+    left: 294px;
+    top: 2280.96px;
 }
 
 .mindset-header{
     font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 47px;
-
-color: #FFFFFF;
-padding-bottom:28px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    
+    color: #FFFFFF;
+    padding-bottom:28px;
 }
 .sec-button{
     color: #005FAC;
-
+    
     font-weight: 600;
-font-size: 20px;
-border:0;
-padding: 20px 25px;
-
-line-height: 23px;
-
-border-radius:5px;
-
-
+    font-size: 20px;
+    border:0;
+    padding: 20px 25px;
+    
+    line-height: 23px;
+    
+    border-radius:5px;
+    
+    
 }
+
+/* EXTRA SECTION FOR EXPLORATION */
+.extra-section{
+    background-color: #0081C9;
+    margin:130px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 300px;
+    /* width: 1600px; */
+}
+
+
+
+
+.extra-section-header{
+    padding-top: 50px;
+    text-align: center;
+    /* padding-bottom: 24px; */
+    font-size: 35px;
+    color:white;
+    
+}
+.extra-section-btn{
+    display: flex;
+    gap:10px;
+    padding-top: 25px;
+    
+    
+}
+.extra-section-buttons{
+    background-color: #0081C9;
+    
+    color:#black;
+    
+    
+    font-weight: 600;
+    font-size: 20px;
+    border:solid 2px ;
+    padding: 20px 25px;
+    
+    /* line-height: 23px; */
+    
+    border-radius:5px;
+    margin-left:350px;
+    width: 400px;
+    
+}
+.oku{
+    background-color: #0081C9;
+    
+    color:#black;
+    
+    
+    font-weight: 600;
+    font-size: 20px;
+    border:solid 2px ;
+    padding: 20px 25px;
+    
+    /* line-height: 23px; */
+    
+    border-radius:5px;
+    margin-left:350px;
+    width: 400px;
+    margin-left:50px;
+}
+
+
+.extra-section-para{
+    text-align: center;
+    margin-top:20px;
+    font-weight: 700;
+    /* padding-bottom: 24px; */
+}
+
+/* FOOTER SECTION */
+
 .contact{
-    margin-top:130px ;
+    margin-top: -130px;
     display: flex;
     text-align: center;
     gap: 200px;
     padding: 130px 230px;
     background: #151414;
+    /* width: 1600px; */
     
 }
-
+.contact a{
+    text-decoration: none;
+}
 .future{
     text-align: left;
     width: 485px;
-
+    
 }
 
 
@@ -264,28 +291,29 @@ border-radius:5px;
 .text{
     color: #F8F8F8;
     font-weight: 400;
-padding-bottom: 16px;
-text-align: left;
+    padding-bottom: 16px;
+    text-align: left;
 }
- .future h2{
-        font-weight: 700;
+.future h2{
+    font-weight: 700;
     font-size: 45px;
     line-height: 53px;
     padding-bottom: 16px;
- }
+}
 
- .subscribe input{
+.subscribe input{
+    color: white;
     width: 325px;
     height:64px;
     background-color: #151414;
     border:solid 1px #F8F8F8;
     border-radius: 5px;
- }
- .third-button{
-        color:orange ;
-        background-color: #F8F8F8;
+}
+.third-button{
+    color:#FF6E31 ;
+    background-color: #F8F8F8;
     
-        font-weight: 600;
+    font-weight: 600;
     font-size: 20px;
     border:0;
     padding: 20px 25px;
@@ -295,4 +323,10 @@ text-align: left;
     border-radius:5px;
     margin-top: 16px;
     margin-right: 170px;    
- }
+} 
+
+
+button:hover{
+    background-color: #F5EA5A;
+    
+}
